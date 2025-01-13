@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_section_hero_banners",
+  "info": {
+    "displayName": "HeroBanner"
+  },
+  "options": {},
+  "attributes": {
+    "image_banner_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.image-box"
+    }
+  }
+}

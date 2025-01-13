@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_components_image_boxes",
+  "info": {
+    "displayName": "Image",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "uri": {
+      "type": "string"
+    }
+  }
+}

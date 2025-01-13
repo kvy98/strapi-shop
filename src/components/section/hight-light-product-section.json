@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_section_hight_light_product_sections",
+  "info": {
+    "displayName": "HightLightProductSection"
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

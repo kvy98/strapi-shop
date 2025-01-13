@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_brand_sections",
+  "info": {
+    "displayName": "BrandSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image_brand_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.image-box"
+    }
+  }
+}

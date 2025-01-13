@@ -1,0 +1,13 @@
+[
+    {
+      "method": "GET",
+      "path": "/products", 
+      "handler": "product.findBySlug", 
+      "config": {
+        "auth": false, 
+        "policies": [],
+        "middlewares": []
+      }
+    }
+  ]
+  

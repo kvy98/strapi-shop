@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_common_components_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "uri": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg",
+        "full"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "outline",
+        "text"
+      ]
+    }
+  }
+}

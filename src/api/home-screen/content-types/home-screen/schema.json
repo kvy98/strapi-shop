@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_screens",
+  "info": {
+    "singularName": "home-screen",
+    "pluralName": "home-screens",
+    "displayName": "HomeScreen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bocks": {
+      "type": "dynamiczone",
+      "components": [
+        "section.hero-banner",
+        "section.cta-button",
+        "section.brand-section",
+        "section.hight-light-product-section"
+      ]
+    }
+  }
+}
