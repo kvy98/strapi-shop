@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "bocks": {
+    "blocks": {
       "type": "dynamiczone",
       "components": [
         "section.hero-banner",

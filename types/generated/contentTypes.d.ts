@@ -414,7 +414,7 @@ export interface ApiHomeScreenHomeScreen extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    bocks: Schema.Attribute.DynamicZone<
+    blocks: Schema.Attribute.DynamicZone<
       [
         'section.hero-banner',
         'section.cta-button',

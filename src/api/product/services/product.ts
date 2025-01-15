@@ -10,8 +10,9 @@ export default factories.createCoreService('api::product.product', ({ strapi }) 
         categories: {
           populate: ['relatedCategoryField'], // Replace with actual nested relations
         },
+        image:true,
         relatedProducts: true, // Automatically populates deeply related products
-      },
+      }, 
     });
 
     return product;
